@@ -115,8 +115,8 @@ spike_test = Variable(torch.from_numpy(test_trial_spikes_stand)).float()
 timesteps = 50
 eps = 1 / timesteps
 channels = 1
-device = "cuda" if torch.cuda.is_available() else "cpu"
-
+# device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cpu"
 
 input_dim = 1
 
