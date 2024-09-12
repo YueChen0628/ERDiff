@@ -146,7 +146,8 @@ def setup_seed(seed):
      np.random.seed(seed)
      random.seed(seed)
      torch.backends.cudnn.deterministic = True
-setup_seed(21)
+# setup_seed(21)
+setup_seed(666)
 
 
 pre_total_loss_ = 1e18
